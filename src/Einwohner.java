@@ -5,7 +5,7 @@ public class Einwohner implements Comparable<Einwohner> {
     private String nachname;
     private String adresse;
     private LocalDate einzugsDatum;
-    priv
+
     // Konstrunktor
     public Einwohner(){
         this.vorname = null;

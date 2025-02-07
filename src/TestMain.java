@@ -16,12 +16,9 @@ public class TestMain {
         Melderegister melderegister = new Melderegister();
 
         // Erstelle einige Einwohner-Objekte
-        Einwohner e1 = new Einwohner("Anna", "Schmidt", "Bahnhofstraße 5");
-        e1.setEinzugsDatum(LocalDate.of(2022, 5, 15));
-        Einwohner e2 = new Einwohner("Bernd", "Meier", "Hauptstraße 12");
-        e2.setEinzugsDatum(LocalDate.of(2020, 8, 20));
-        Einwohner e3 = new Einwohner("Clara", "Zimmermann", "Seestraße 3");
-        e3.setEinzugsDatum(LocalDate.of(2021, 3, 10));
+        Einwohner e1 = new Einwohner("Anna", "Schmidt", "Bahnhofstraße 5", LocalDate.of(2022, 5, 15));
+        Einwohner e2 = new Einwohner("Bernd", "Meier", "Hauptstraße 12", LocalDate.of(2020, 8, 20));
+        Einwohner e3 = new Einwohner("Clara", "Zimmermann", "Seestraße 3", LocalDate.of(2021, 3, 10));
 
         // Einwohner zum Melderegister hinzufügen
         melderegister.add(e1);
