@@ -14,11 +14,11 @@ public class Einwohner implements Comparable<Einwohner> {
         this.einzugsDatum = null;
 
     }
-    public Einwohner(String vorname, String nachname, String adresse){
+    public Einwohner(String vorname, String nachname, String adresse, LocalDate einzugsDatum){
         this.vorname = vorname;
         this.nachname = nachname;
         this.adresse = adresse;
-        this.einzugsDatum = null;
+        this.einzugsDatum = einzugsDatum;
     }
 
     // Getter
